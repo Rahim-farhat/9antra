@@ -1,0 +1,159 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+
+  width: 60%;
+  padding: 10px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+}
+
+.hero-overlay button {
+  background-color: #af2f64;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+.courses-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+
+.courses-head button {
+  background-color: #af2f64;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  height: fit-content;
+}
+
+.courses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.contact-form {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #fab555;
+  border-radius: 50px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  border-style: none;
+  padding: 1rem;
+  width: 90%;
+}
+
+.contact-form p {
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.contact-form button {
+  background-color: #af2f64;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 750px) {
+  .hero-overlay button {
+    background-color: #af2f64;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+  }
+
+  .courses-head button {
+    background-color: #af2f64;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: fit-content;
+  }
+
+  .contact-form button {
+    background-color: #af2f64;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+  }
+}

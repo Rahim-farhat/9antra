@@ -1,0 +1,15 @@
+.card-img-top {
+  width: 400px;
+  height: 250px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.card-text {
+  margin-left: 30px;
+  color: #af2f64;
+  font-weight: 800;
+}
